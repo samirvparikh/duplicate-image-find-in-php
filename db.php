@@ -1,10 +1,10 @@
 <?php
 // define mysql credentials
-$db_user = 'admin';
-$db_pass = 'HKNG@H1hwRS@#';
-$db_database = 'testdb';
-$db_table = 'testdb';
-$db_host = '192.168.1.12';
+$db_user = 'root';
+$db_pass = '';
+$db_database = 'mydatabase';
+$db_table = 'test';
+$db_host = 'localhost';
 
 // connect to mysql database
 $db = mysqli_connect($db_host, $db_user, $db_pass);
